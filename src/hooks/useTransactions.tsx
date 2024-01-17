@@ -37,7 +37,7 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
     if (storagedtransactions) {
       return JSON.parse(storagedtransactions)
     } else {
-      return {}
+      return []
     };
   })
 
